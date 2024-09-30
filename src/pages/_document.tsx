@@ -43,6 +43,9 @@ f=false,w=window,d=document,v=d.querySelector('#vwoCode'),cK='_vwo_'+account_id+
         <body>
           <Main />
           <NextScript />
+<Script id="testScript" strategy="beforeInteractive">
+  {`console.log('Test script loaded');`}
+</Script>
         </body>
       </Html>
     );
