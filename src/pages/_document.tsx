@@ -2,6 +2,7 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import Script from 'next/script';
+import { VWOScript } from "vwo-nextjs-smartcode";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
