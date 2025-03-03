@@ -2,7 +2,7 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 import Script from 'next/script';
-import { VWOScript } from "v-nextjs-smartcode";
+import { VWOScript } from "vwo-smartcode-nextjs";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext) {
@@ -30,9 +30,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <VWOScript accountId="735612" scriptAttributes={{
-    nonce: "your-nonce-value"
-  }} />
+          <VWOScript accountId="735612" />
         </Head>
         <body>
           <Main />
