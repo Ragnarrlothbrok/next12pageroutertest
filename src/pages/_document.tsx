@@ -30,7 +30,9 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <VWOScript accountId="735612" />
+          <VWOScript accountId="735612" scriptAttributes={{
+    nonce: "your-nonce-value"
+  }} />
         </Head>
         <body>
           <Main />
