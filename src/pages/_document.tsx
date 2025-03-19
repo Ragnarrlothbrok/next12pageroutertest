@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
     return (
       <Html lang="pt-BR">
         <Head>
-          <VWOScript accountId="735612" />
+          <VWOScript accountId="29000270" type="SYNC" />
         </Head>
         <body>
           <Main />
